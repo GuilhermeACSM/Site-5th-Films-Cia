@@ -493,7 +493,7 @@ iframe {
 
 /*---------------- FOOTER GERAL ------------------*/
 .footerContainer {
-    width: 80vw;
+    width: 84vw;
 }
 
 .footerNav ul{
@@ -557,7 +557,7 @@ iframe {
     }
 
 
-/*--Footer tela grande--*/
+/*--Footer telas maiores que o celular--*/
     footer .input-footer {
         width: 300px;
     }
