@@ -304,6 +304,10 @@ iframe {
 
 
 /*introdução Pág Compra*/
+.main-geralframe {
+    padding-top: 23px;
+}
+
 .section-cat {
     border-left: 1px solid white;
 }
@@ -430,7 +434,7 @@ iframe {
 
 
 /*---------------------------------------------- MEDIA QUERY -----------------------------------------------------------------*/
-
+/*----------------CELULAR-----------------------------------*/
 @media (max-width: 799px) {
 /*------------------ HEADER GERAL ------------------------*/
     .hamburger {
@@ -445,7 +449,7 @@ iframe {
         width: 100vw;
         height: 100vh;
         background: #0f0f0f;
-        clip-path: circle(100px at 90% -15%);
+        clip-path: circle(70px at 90% -15%);
         transition: 1s ease-out;
 
         flex-direction: column;
@@ -472,7 +476,7 @@ iframe {
 }
 
     .nav.active .nav-list a {
-        opacity: 1;
+        opacity: 11;
 }
 
     .nav.active .hamburger {
@@ -493,7 +497,7 @@ iframe {
 
 /*---------------- FOOTER GERAL ------------------*/
 .footerContainer {
-    width: 84vw;
+    width: 83vw;
 }
 
 .footerNav ul{
@@ -557,13 +561,17 @@ iframe {
     }
 
 
-/*--Footer telas maiores que o celular--*/
+/*--Footer--*/
+    .footerContainer {
+        width: 91vw;
+}
+
     footer .input-footer {
-        width: 300px;
+        width: 100px;
     }
 
     footer .button-footer {
-        width: 300px;
+        width: 100px;
     }
 
 
@@ -593,6 +601,11 @@ iframe {
     .iframegeral {
         margin-top: 50px;
         height: 300px;
+}
+
+/*--Footer--*/
+    .footerContainer {
+        width: 95vw;
 }
 
 
