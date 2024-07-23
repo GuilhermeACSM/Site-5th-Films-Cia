@@ -222,7 +222,6 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 
 .container-text {
@@ -296,6 +295,7 @@ footer{
 
 
 /*-------------------------------------------------- SOMENTE PAG COMPRA -------------------------------------------------------*/
+
 /*---------------IFRAMES COMPRA------------------------*/
 iframe {
     width: 100%;
@@ -416,24 +416,28 @@ iframe {
 
 
 
+/*------------------------------------------------ SOMENTE PAG CATÁLOGO --------------------------*/
+.catalogo-films {
+    margin-top: 30px;
+}
 
+.container-films {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.container-films > div > a > img:hover {
+    opacity: 0.5;
+}
 
 
 
 
 /*---------------------------------------------- MEDIA QUERY -----------------------------------------------------------------*/
+
+
 /*----------------CELULAR-----------------------------------*/
 @media (max-width: 799px) {
 /*------------------ HEADER GERAL ------------------------*/
@@ -497,7 +501,7 @@ iframe {
 
 /*---------------- FOOTER GERAL ------------------*/
 .footerContainer {
-    width: 83vw;
+    width: 81vw;
 }
 
 .footerNav ul{
@@ -516,9 +520,12 @@ iframe {
 }
 
 
+/*------------ PAG HOME ------------------*/
+
+
 /*------------ PAG COMPRA ----------------*/
 .iframegeral {
-    height: 720px;
+    height: 790px;
 }
 .section-cat{
     border: none;
@@ -608,6 +615,8 @@ iframe {
         width: 95vw;
 }
 
+
+/*--PAG CATÁLOGO--*/
 
 }
 
