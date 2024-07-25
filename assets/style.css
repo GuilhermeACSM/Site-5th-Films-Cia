@@ -457,6 +457,28 @@ iframe {
 }
 
 
+
+
+/*---------------------------- SOMENTE PAG SOBRE NÓS ------------------------*/
+
+.name-CEO {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.sub-name {
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.h1-sobre {
+    text-align: center;
+}
+
+
+
+
+
 /*---------------------------------------------- MEDIA QUERY -----------------------------------------------------------------*/
 
 
@@ -629,7 +651,19 @@ iframe {
     color: white;
 }
 
+/*---------------------------- SOMENTE PAG SOBRE NÓS ------------------------*/
+.div-2 {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
 
+.div-imageCeo {
+    margin: 10px;
+}
 
 
 }
@@ -829,6 +863,21 @@ iframe {
 }
 
 
+/*---------------------------- SOMENTE PAG SOBRE NÓS ------------------------*/
+.div-2 {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.div-imageCeo {
+    margin: 10px;
+}
+
+
 }
 
 
@@ -946,6 +995,22 @@ iframe {
     color: white;
 
 }
+
+/*---------------------------- SOMENTE PAG SOBRE NÓS ------------------------*/
+
+.div-2 {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.div-imageCeo {
+    margin: 10px;
+}
+
 
 
 }
