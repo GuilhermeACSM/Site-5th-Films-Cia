@@ -283,8 +283,7 @@ footer{
     background-color: black;
 }
 
-.frame{
-    aspect-ratio: 16 / 9;
+.div-iframe > iframe {
     width: 100%;
 }
 
@@ -414,8 +413,6 @@ iframe {
 
 
 
-
-
 /*------------------------------------------------ SOMENTE PAG CATÁLOGO --------------------------*/
 .catalogo-films {
     margin-top: 30px;
@@ -432,7 +429,32 @@ iframe {
     opacity: 0.5;
 }
 
+.p-cat-legend {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
 
+
+
+#compra-botao-2 > a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+#compra-botao-2 > a:hover {
+    color: orangered;
+}
+
+
+#compra-botao-2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #0f0f0f;
+}
 
 
 /*---------------------------------------------- MEDIA QUERY -----------------------------------------------------------------*/
@@ -532,6 +554,83 @@ iframe {
 }
 
 
+/*----------- PAG CAT-FILMS --------------*/
+.div-father-asides-cat-films {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+}
+
+.link-voltar-cat {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.link-voltar-cat:hover {
+    color: orangered;
+}
+
+.p-voltar-cat {
+    margin-left: 10px;
+}
+
+.title-films {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.div-aside-cat-films {
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.p-legend-div-aside-cat-films {
+    color: rgba(255, 255, 255, 0.548);
+    margin: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.p-descrição-div-aside-cat-films-1 {
+    color: white;
+    font-size: 19px;
+    margin: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.p-descrição-div-aside-cat-films-2 {
+    color: white;
+    margin: 50px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.p-descrição-div-aside-cat-films-3{
+    margin: 50px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.p-descrição-div-aside-cat-films-3 > a {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.p-descrição-div-aside-cat-films-3 > a:hover {
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+}
+
+
+
 
 }
 
@@ -570,7 +669,7 @@ iframe {
 
 /*--Footer--*/
     .footerContainer {
-        width: 91vw;
+        width: 90vw;
 }
 
     footer .input-footer {
@@ -580,6 +679,154 @@ iframe {
     footer .button-footer {
         width: 100px;
     }
+
+    .div-father-asides-cat-films {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+}
+
+.link-voltar-cat {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.link-voltar-cat:hover {
+    color: orangered;
+}
+
+.p-voltar-cat {
+    margin-left: 10px;
+}
+
+.title-films {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.div-aside-cat-films {
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.p-legend-div-aside-cat-films {
+    color: rgba(255, 255, 255, 0.548);
+    margin: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.p-descrição-div-aside-cat-films-1 {
+    color: white;
+    font-size: 19px;
+    margin: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.p-descrição-div-aside-cat-films-2 {
+    color: white;
+    margin: 50px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.p-descrição-div-aside-cat-films-3{
+    margin: 50px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.p-descrição-div-aside-cat-films-3 > a {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.p-descrição-div-aside-cat-films-3 > a:hover {
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+}
+
+.div-father-asides-cat-films {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+}
+
+.link-voltar-cat {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.link-voltar-cat:hover {
+    color: orangered;
+}
+
+.p-voltar-cat {
+    margin-left: 10px;
+}
+
+.title-films {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.div-aside-cat-films {
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.p-legend-div-aside-cat-films {
+    color: rgba(255, 255, 255, 0.548);
+    margin: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.p-descrição-div-aside-cat-films-1 {
+    color: white;
+    font-size: 19px;
+    margin: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.p-descrição-div-aside-cat-films-2 {
+    color: white;
+    margin: 50px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.p-descrição-div-aside-cat-films-3{
+    margin: 50px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.p-descrição-div-aside-cat-films-3 > a {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.p-descrição-div-aside-cat-films-3 > a:hover {
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+}
 
 
 }
@@ -612,13 +859,93 @@ iframe {
 
 /*--Footer--*/
     .footerContainer {
-        width: 95vw;
+        width: 93vw;
 }
 
 
 /*--PAG CATÁLOGO--*/
 
+/*---------------------------------------- SOMENTE PAG FILMES - CATÁLOGO -----------------------------*/
+.div-father-asides-cat-films {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/*------- !!!!!!!PRECISO DE AJUDA PARA AJUSTAR O LINK DA PAG DE FILMES!!!!!!!! --------
+--------- !!!!!!!PRECISO DE AJUDA COM O IFRAME CENTRALIZADO!!!!!!! --------------------*/
+
+.link-voltar-cat {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.link-voltar-cat:hover {
+    color: orangered;
+}
+
+.p-voltar-cat {
+    margin-left: 10px;
 }
 
 
+.title-films {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
 
+.div-aside-cat-films {
+    margin-left: 50px;
+    border-left: 1px white solid;
+    text-align: justify;
+}
+
+.p-legend-div-aside-cat-films {
+    color: rgba(255, 255, 255, 0.548);
+    margin: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.p-descrição-div-aside-cat-films-1 {
+    color: white;
+    font-size: 19px;
+    margin: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.p-descrição-div-aside-cat-films-2 {
+    color: white;
+    margin: 50px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.p-descrição-div-aside-cat-films-3{
+    margin: 50px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.p-descrição-div-aside-cat-films-3 > a {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.p-descrição-div-aside-cat-films-3 > a:hover {
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+
+}
+
+
+}
