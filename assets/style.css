@@ -478,6 +478,93 @@ iframe {
 
 
 
+/*----------------------------- SOMENTE PAG CONTATO ------------------------------*/
+
+#main-3 {
+    margin: auto;
+    max-width: 700px;
+    min-width: 320px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.048);
+    border-radius: 5px;
+}
+
+
+.h1-contato {
+    color: orangered;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: var(--fontes-panton);
+}
+
+.p-contato {
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    resize: none;
+    border-radius: 5px;
+}
+
+.iframe-map {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 50%;
+}
+
+
+.h4-contat {
+    color: white;
+}
+
+
+input[type=email] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+
+input[type=submit] {
+    color: white;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+input[type=tel] {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input[type=tel]:focus {
+    outline: none;
+}
+
+input[type=text] {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+}
+
+
 
 /*---------------------------------------------- MEDIA QUERY -----------------------------------------------------------------*/
 
